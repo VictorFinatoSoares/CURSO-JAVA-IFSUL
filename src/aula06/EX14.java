@@ -1,20 +1,20 @@
 package aula06;
 
-import java.util.Scanner;
+import helpers.Input;
 
 public class EX14 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Nome: ");
-        String nome = sc.next();
-        System.out.print("Peso (kg): ");
-        double peso = sc.nextDouble();
-        System.out.print("Altura (m): ");
-        double altura = sc.nextDouble();
+        String nome = Input.readLine("Digite seu nome: ");
+        double peso = Input.readDouble("Digite seu peso (KG): ");
+        double altura = Input.readDouble("Digite sua altura (M): ");
 
-        double imc = peso / (altura * altura);
-        System.out.printf("%s, seu IMC é %.1f%n", nome, imc);
+        double imc = peso / Math.pow(altura, 2);
+        System.out.printf("%s, seu IMC é %.1f\n", nome, imc);
 
+        calcularIMC(imc);
+    }
+
+    public static void calcularIMC(double imc) {
         if (imc < 18.5)
             System.out.println("Classificação: Abaixo do peso");
         else if (imc < 25.0)
@@ -27,7 +27,5 @@ public class EX14 {
             System.out.println("Classificação: Obesidade Grau 2");
         else
             System.out.println("Classificação: Obesidade Grau 3");
-
-        sc.close();
     }
 }
