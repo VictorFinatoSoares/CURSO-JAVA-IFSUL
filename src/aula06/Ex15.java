@@ -8,6 +8,11 @@ public class Ex15 {
         int b = Input.readInteger("Informe o segundo valor: ");
         int c = Input.readInteger("Informe o terceiro valor: ");
 
+        if (a <= 0 || b <= 0 || c <= 0) {
+            System.out.println("Os lados devem ser maiores que ZERO.");
+            return;
+        }
+
         int ab = a + b;
         int ac = a + c;
         int bc = b + c;

@@ -2,9 +2,17 @@ package aula06;
 
 import helpers.Input;
 
-public class EX18 {
+public class Ex18 {
     public static void main(String[] args) {
-        double saldo = Input.readDouble("Digite seu saldo: R$ ");
+        double saldo;
+
+        do {
+            saldo = Input.readDouble("Digite seu saldo: R$ ");
+
+            if (saldo < 0) {
+                System.out.println("ERRO: O saldo não pode ser NEGATIVO!");
+            }
+        } while (saldo < 0);
 
         System.out.println("[1] Saque\n[2] Depósito\n");
         int opcao = Input.readInteger("Escolha: ");
@@ -46,7 +54,7 @@ public class EX18 {
             valorDeposito = Input.readDouble("Valor a depositar (máx: R$ 300,00): R$ ");
 
             if (valorDeposito <= 0) {
-                System.out.println("ERRO: O valor de saque precisa ser maior que ZERO!");
+                System.out.println("ERRO: O valor de depósito precisa ser maior que ZERO!");
             }
 
             if (valorDeposito > 300) {

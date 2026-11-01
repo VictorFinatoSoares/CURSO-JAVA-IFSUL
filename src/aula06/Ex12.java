@@ -4,13 +4,31 @@ import helpers.Input;
 
 public class Ex12 {
     public static void main(String[] args) {
-        double preco = Input.readDouble("Informe o preço: R$ ");
-        int qtd = Input.readInteger("Informe a quantidade: ");
+        double preco;
+        int qtd;
+
+        do {
+            preco = Input.readDouble("Informe o preço: R$ ");
+
+            if (preco <= 0) {
+                System.out.println("ERRO: O preço deve ser maior que ZERO!");
+            }
+        } while (preco <= 0);
+
+        do {
+            qtd = Input.readInteger("Informe a quantidade: ");
+
+            if (qtd <= 0) {
+                System.out.println("ERRO: A quantidade deve ser maior que ZERO!");
+            }
+        } while (qtd <= 0);
 
         double total = preco * qtd;
-        double desconto = 0;
+        double desconto;
 
-        if (qtd >= 3 && qtd <= 4) {
+        if (qtd < 3) {
+            desconto = 0;
+        } else if (qtd <= 4) {
             desconto = 0.10;
         } else if (qtd <= 10) {
             desconto = 0.15;

@@ -2,11 +2,27 @@ package aula06;
 
 import helpers.Input;
 
-public class EX14 {
+public class Ex13 {
     public static void main(String[] args) {
         String nome = Input.readLine("Digite seu nome: ");
-        double peso = Input.readDouble("Digite seu peso (KG): ");
-        double altura = Input.readDouble("Digite sua altura (M): ");
+        double peso;
+        double altura;
+
+        do {
+            peso = Input.readDouble("Digite seu peso (KG): ");
+
+            if (peso <= 0) {
+                System.out.println("ERRO: O peso deve ser maior que ZERO!");
+            }
+        } while (peso <= 0);
+
+        do {
+            altura = Input.readDouble("Digite sua altura (M): ");
+
+            if (altura <= 0) {
+                System.out.println("ERRO: A altura deve ser maior que ZERO!");
+            }
+        } while (altura <= 0);
 
         double imc = peso / Math.pow(altura, 2);
         System.out.printf("%s, seu IMC é %.1f\n", nome, imc);

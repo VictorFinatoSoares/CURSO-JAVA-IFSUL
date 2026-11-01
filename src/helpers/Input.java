@@ -20,7 +20,13 @@ public class Input {
         while (true) {
             try {
                 System.out.print(msg);
-                return Double.parseDouble(sc.nextLine());
+                double value = Double.parseDouble(sc.nextLine());
+
+                if (!Double.isFinite(value)) {
+                    throw new NumberFormatException();
+                }
+
+                return value;
             } catch (NumberFormatException e) {
                 System.out.println("ERRO: A entrada precisa ser um número DOUBLE!");
             }
