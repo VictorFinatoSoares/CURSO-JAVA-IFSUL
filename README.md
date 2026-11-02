@@ -1,48 +1,49 @@
-# Java — Algoritmos e Lógica de Programação
+# CURSO-JAVA-IFSUL
 
-Este repositório reúne os arquivos desenvolvidos durante as aulas e avaliações da disciplina de **Algoritmos e Lógica de Programação**, **POO** etc, utilizando **Java**.
+Repositório criado com o objetivo de guardar e organizar exercícios, atividades práticas e avaliações desenvolvidas durante os estudos de **Java**, foco em **Algoritmos e Lógica de Programação** e **Programação Orientada a Objetos (POO)**.
 
-Os conteúdos fazem parte do **1º ano do Ensino Médio Técnico Integrado em Desenvolvimento de Sistemas** do **IFSul — Câmpus Sapucaia do Sul**.
+Os materiais correspondem às atividades do **1º ano do Curso Técnico Integrado em Desenvolvimento de Sistemas** do **Instituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSul) — Câmpus Sapucaia do Sul**.
 
-## 📚 Conteúdo
+## Conteúdo
 
-O repositório pode incluir:
+O repositório reúne diferentes materiais desenvolvidos ao longo da disciplina, incluindo:
 
-* Exercícios realizados em aula;
-* Atividades práticas;
-* Listas de exercícios;
-* Avaliações;
-* Exemplos apresentados durante as aulas;
-* Implementações utilizadas para estudar conceitos de lógica de programação.
+- Exercícios realizados em aula;
+- Atividades práticas;
+- Listas de exercícios;
+- Avaliações;
+- Exemplos e implementações desenvolvidos durante as aulas;
+- Resoluções de problemas utilizando programação.
 
-## ☕ Linguagem
+## Conceitos abordados
 
-A linguagem utilizada durante as atividades é:
+Entre os principais conceitos estudados e aplicados nos exercícios estão:
 
-* **Java**
+- Fundamentos da linguagem Java;
+- Entrada e saída de dados;
+- Variáveis e tipos de dados;
+- Operadores aritméticos, relacionais e lógicos;
+- Estruturas condicionais;
+- Estruturas de repetição;
+- Vetores e matrizes;
+- Métodos;
+- Algoritmos e lógica de programação;
+- Fundamentos de Programação Orientada a Objetos.
 
-## 🧠 Tópicos estudados
+## Objetivo
 
-Entre os principais conteúdos abordados estão:
+Este repositório tem como objetivo documentar e organizar as atividades desenvolvidas durante o processo de aprendizagem, servindo como registro da evolução dos conhecimentos em programação Java.
 
-* Entrada e saída de dados;
-* Variáveis e tipos de dados;
-* Operadores aritméticos, relacionais e lógicos;
-* Estruturas condicionais;
-* Estruturas de repetição;
-* Vetores e matrizes;
-* Métodos
-* Desenvolvimento de algoritmos;
-* Resolução de problemas utilizando lógica de programação.
+Os códigos refletem diferentes etapas dos estudos, desde os fundamentos da lógica de programação até a aplicação de conceitos mais avançados da linguagem.
 
-> O conteúdo deste repositório acompanha meu progresso ao longo da disciplina, portanto os códigos representam diferentes etapas do processo de aprendizagem.
+## Instituição
 
-## 🏫 Instituição
+**Instituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense (IFSul)**
 
-**Instituto Federal de Educação, Ciência e Tecnologia Sul-rio-grandense — IFSul**
-Câmpus Sapucaia do Sul
-Curso Técnico Integrado em Desenvolvimento de Sistemas
+- Câmpus: Sapucaia do Sul
+- Curso: Técnico Integrado em Desenvolvimento de Sistemas
+- Etapa: 1º ano do Ensino Médio Técnico Integrado
 
-## 📌 Observação
+---
 
-Este repositório possui finalidade principalmente **acadêmica e educacional**, servindo como registro das atividades desenvolvidas durante o curso.
+Repositório de finalidade acadêmica e educacional.
