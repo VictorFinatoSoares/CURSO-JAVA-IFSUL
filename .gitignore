@@ -2,7 +2,8 @@
 .idea/
 out/
 !**/src/main/**/out/
-!**/src/test/**/out/
+!**/src/test/**/out
+Projects.iml
 .kotlin
 
 ### Eclipse ###
