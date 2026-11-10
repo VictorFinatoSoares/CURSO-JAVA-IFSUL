@@ -7,65 +7,46 @@ public class LeituraDeArquivos {
         String arquivo = "src/aula31/megasena.csv";
 
         try {
-            FileReader leitorArquivos = new FileReader(arquivo);
-            BufferedReader buffer = new BufferedReader(leitorArquivos);
-
+            BufferedReader buffer = new BufferedReader(new FileReader(arquivo));
             String linha = buffer.readLine();
+            System.out.println(linha.replace(";", " | "));
 
-            boolean primeiraLinha = true;
+            linha = buffer.readLine();
             int[] contagem = new int[61];
 
             while (linha != null) {
                 String[] linhaSeparada = linha.split(";");
 
-                for (int i = 0; i < linhaSeparada.length; i++) {
-                    if (primeiraLinha) {
-                        System.out.print(linhaSeparada[i] + " | ");
+                boolean somentePares = true;
+                String[] numerosSeparados = linhaSeparada[2].split(" ");
 
-                        if (i == 2) {
-                            System.out.println();
-                        }
+                for (String numeroTexto: numerosSeparados) {
+                    int numero = Integer.parseInt(numeroTexto);
 
-                    } else {
-                        String[] numerosSeparados = linhaSeparada[2].split(" ");
-                        boolean somentePares = true;
-
-                        for (String numero : numerosSeparados) {
-                            if (i == 2) {
-                                contagem[Integer.parseInt(numero)]++;
-                            }
-                            if (Integer.parseInt(numero) % 2 != 0) {
-                                somentePares = false;
-                            }
-                        }
-
-                        if (somentePares) {
-                            System.out.print(linhaSeparada[i] + " ");
-
-                            if (i == 2) {
-                                System.out.println();
-                            }
-
-                        }
+                    if (numero % 2 != 0) {
+                        somentePares = false;
                     }
+
+                    contagem[numero]++;
+                }
+
+                if (somentePares) {
+                    System.out.println(linha.replace(";", " | "));
                 }
 
                 linha = buffer.readLine();
-                primeiraLinha = false;
             }
-
             buffer.close();
 
-            int maisSorteado = 1;
-            int maxSorteios = contagem[1];
+            int maisSorteado = 0;
+            int maxSorteios = contagem[maisSorteado];
 
-            for (int i = 2; i <= 60; i++) {
+            for (int i = 1; i <= 60; i++) {
                 if (contagem[i] > maxSorteios) {
                     maxSorteios = contagem[i];
                     maisSorteado = i;
                 }
             }
-
             System.out.printf("O número mais sorteado é %d. (%d vezes)\n", maisSorteado, maxSorteios);
         } catch (FileNotFoundException e) {
             System.out.printf("%s não existe!\n", arquivo);
