@@ -1,0 +1,201 @@
+200
+1#Blinding Lights#The Weeknd#5676#1476
+2#Shape of You#Ed Sheeran#5181#1608
+3#Sweater Weather#The Neighbourhood#5019#2303
+4#Starboy#The Weeknd#4861#1906
+5#As It Was#Harry Styles#4708#1268
+6#One Dance#Drake#4560#1595
+7#Sunflower#Post Malone#4552#1365
+8#Someone You Loved#Lewis Capaldi#4494#978
+9#Perfect#Ed Sheeran#4180#1168
+10#Die With A Smile#Lady Gaga#4133#2314
+11#STAY#The Kid LAROI#4133#1004
+12#I Wanna Be Yours#Arctic Monkeys#4103#1800
+13#BIRDS OF A FEATHER#Billie Eilish#4096#1908
+14#Yellow#Coldplay#4082#1616
+15#The Night We Met#Lord Huron#4031#1805
+16#Believer#Imagine Dragons#4012#915
+17#Riptide#Vance Joy#4004#1451
+18#Heat Waves#Glass Animals#3991#1013
+19#Closer#The Chainsmokers#3953#1248
+20#lovely#Billie Eilish#3933#975
+21#Every Breath You Take#The Police#3868#2211
+22#Iris#The Goo Goo Dolls#3853#2261
+23#Something Just Like This#The Chainsmokers#3833#1072
+24#Another Love#Tom Odell#3767#1183
+25#Say You Won't Let Go#James Arthur#3739#747
+26#Counting Stars#OneRepublic#3722#1318
+27#Take Me To Church#Hozier#3648#1077
+28#Photograph#Ed Sheeran#3611#1052
+29#Viva La Vida#Coldplay#3604#1374
+30#Locked out of Heaven#Bruno Mars#3600#1585
+31#Mr. Brightside#The Killers#3591#2022
+32#Can't Hold Us#Macklemore#3586#893
+33#Just The Way You Are#Bruno Mars#3560#1320
+34#Dance Monkey#Tones And I#3543#480
+35#Cruel Summer#Taylor Swift#3534#736
+36#Die For You#The Weeknd#3499#1474
+37#rockstar#Post Malone#3484#466
+38#That's What I Like#Bruno Mars#3469#1094
+39#Señorita#Shawn Mendes#3468#851
+40#In the End#Linkin Park#3458#1456
+41#Watermelon Sugar#Harry Styles#3438#573
+42#Love Yourself#Justin Bieber#3420#1052
+43#Billie Jean#Michael Jackson#3366#1977
+44#Don't Start Now#Dua Lipa#3362#564
+45#When I Was Your Man#Bruno Mars#3361#1117
+46#Circles#Post Malone#3335#1150
+47#Bohemian Rhapsody#Queen#3328#981
+48#Without Me#Eminem#3295#1092
+49#Let Me Love You#DJ Snake#3294#1235
+50#Wake Me Up#Avicii#3284#896
+51#Thinking out Loud#Ed Sheeran#3267#949
+52#goosebumps#Travis Scott#3267#748
+53#Espresso#Sabrina Carpenter#3249#1150
+54#Treat You Better#Shawn Mendes#3247#2104
+55#All The Stars#Kendrick Lamar#3246#1179
+56#Beautiful Things#Benson Boone#3243#1312
+57#Creep#Radiohead#3243#1888
+58#All Of Me#John Legend#3241#1006
+59#Lucid Dreams#Juice WRLD#3237#621
+60#Stressed Out#Twenty One Pilots#3228#1101
+61#God's Plan#Drake#3228#980
+62#The Hills#The Weeknd#3213#1024
+63#Do I Wanna Know?#Arctic Monkeys#3212#1350
+64#Shallow#Lady Gaga#3211#733
+65#Demons#Imagine Dragons#3193#942
+66#See You Again#Tyler, The Creator#3189#1269
+67#Wonderwall#Oasis#3187#1529
+68#Smells Like Teen Spirit#Nirvana#3169#1269
+69#Thunder#Imagine Dragons#3152#700
+70#Seven#Jung Kook#3139#1071
+71#Unforgettable#French Montana#3139#1193
+72#Sorry#Justin Bieber#3135#1195
+73#505#Arctic Monkeys#3126#1612
+74#No Role Modelz#J. Cole#3094#944
+75#Lose Yourself#Eminem#3072#895
+76#The Scientist#Coldplay#3063#1125
+77#End of Beginning#Djo#3061#1876
+78#Don't Stop Believin'#Journey#3061#879
+79#There's Nothing Holdin' Me Back#Shawn Mendes#3060#1252
+80#Flowers#Miley Cyrus#3029#594
+81#Dreams#Fleetwood Mac#3022#1294
+82#HUMBLE.#Kendrick Lamar#3020#485
+83#drivers license#Olivia Rodrigo#3008#959
+84#bad guy#Billie Eilish#3003#377
+85#Take on Me#a-ha#2995#1390
+86#Numb#Linkin Park#2988#1196
+87#7 rings#Ariana Grande#2968#656
+88#Sweet Child O' Mine#Guns N' Roses#2957#1094
+89#One Of The Girls#The Weeknd#2953#1970
+90#Payphone#Maroon 5#2941#1325
+91#Kill Bill#SZA#2939#729
+92#Let Her Go#Passenger#2938#697
+93#Save Your Tears#The Weeknd#2899#1125
+94#Cold Heart#Elton John#2854#582
+95#Lean On#Major Lazer#2848#653
+96#Uptown Funk#Mark Ronson#2843#843
+97#Danza Kuduro#Don Omar#2836#1229
+98#One Kiss#Calvin Harris#2829#577
+99#Africa#TOTO#2823#1134
+100#Don't Stop Me Now#Queen#2819#829
+101#We Don't Talk Anymore#Charlie Puth#2812#1128
+102#Night Changes#One Direction#2783#973
+103#Somewhere Only We Know#Keane#2781#1340
+104#LA CANCIÓN#J Balvin#2775#998
+105#Everybody Wants To Rule The World#Tears For Fears#2768#1185
+106#Hips Don't Lie#Shakira#2760#1013
+107#good 4 u#Olivia Rodrigo#2754#555
+108#Someone Like You#Adele#2753#805
+109#We Found Love#Calvin Harris#2741#1129
+110#Happier#Marshmello#2730#716
+111#Lose Control#Teddy Swims#2722#1053
+112#Levitating#Dua Lipa#2709#502
+113#Gangsta's Paradise#Coolio#2704#863
+114#APT.#ROSÉ#2703#1106
+115#SICKO MODE#Travis Scott#2701#666
+116#Lush Life#Zara Larsson#2685#1167
+117#Attention#Charlie Puth#2684#1001
+118#Stitches#Shawn Mendes#2679#962
+119#Me Rehúso#Danny Ocean#2676#1060
+120#The Less I Know The Better#Tame Impala#2675#1242
+121#Blank Space#Taylor Swift#2667#1080
+122#New Rules#Dua Lipa#2665#468
+123#Apocalypse#Cigarettes After Sex#2663#1573
+124#7 Years#Lukas Graham#2662#771
+125#Somebody That I Used To Know#Gotye#2656#1339
+126#Pumped Up Kicks#Foster The People#2654#913
+127#I'm Not The Only One#Sam Smith#2645#800
+128#Mockingbird#Eminem#2645#772
+129#Without Me#Halsey#2639#682
+130#Have You Ever Seen The Rain#Creedence Clearwater Revival#2633#1014
+131#Feel Good Inc#Gorillaz#2626#1235
+132#Till I Collapse#Eminem#2617#532
+133#XO Tour Llif3#Lil Uzi Vert#2616#551
+134#Stay With Me#Sam Smith#2613#547
+135#Too Good At Goodbyes#Sam Smith#2612#523
+136#DÁKITI#Bad Bunny#2598#522
+137#The Real Slim Shady#Eminem#2598#625
+138#Easy On Me#Adele#2597#621
+139#SAD!#XXXTENTACION#2597#328
+140#when the party's over#Billie Eilish#2591#515
+141#Havana#Camila Cabello#2589#547
+142#I'm Yours#Jason Mraz#2585#814
+143#Who#Jimin#2584#799
+144#Memories#Maroon 5#2578#543
+145#Another One Bites The Dust#Queen#2566#643
+146#La Bachata#Manuel Turizo#2563#726
+147#See You Again#Wiz Khalifa#2562#781
+148#All I Want for Christmas Is You#Mariah Carey#2558#2279
+149#Maps#Maroon 5#2557#712
+150#I Took A Pill In Ibiza#Mike Posner#2552#562
+151#The Nights#Avicii#2550#770
+152#Call Out My Name#The Weeknd#2547#818
+153#Moonlight#XXXTENTACION#2546#707
+154#Sign of the Times#Harry Styles#2544#1804
+155#I'm Good (Blue)#David Guetta#2538#612
+156#Don't Let Me Down#The Chainsmokers#2534#733
+157#A Sky Full of Stars#Coldplay#2530#841
+158#Summertime Sadness#Lana Del Rey#2530#1046
+159#Kiss Me More#Doja Cat#2529#564
+160#Jocelyn Flores#XXXTENTACION#2529#188
+161#Rolling in the Deep#Adele#2527#637
+162#Shut Up and Dance#WALK THE MOON#2517#795
+163#Faded#Alan Walker#2516#662
+164#I Love You So#The Walters#2507#871
+165#The Box#Roddy Ricch#2506#552
+166#Before You Go#Lewis Capaldi#2502#529
+167#Why'd You Only Call Me When You're High?#Arctic Monkeys#2501#834
+168#traitor#Olivia Rodrigo#2494#1128
+169#Titanium#David Guetta#2489#1181
+170#September#Earth, Wind & Fire#2489#693
+171#Highway to Hell#AC/DC#2488#788
+172#Set Fire to the Rain#Adele#2485#775
+173#Umbrella#Rihanna#2475#1086
+174#deja vu#Olivia Rodrigo#2471#1534
+175#Dandelions#Ruth B.#2463#743
+176#Beauty And A Beat#Justin Bieber#2445#2426
+177#Heather#Conan Gray#2443#662
+178#Sugar#Maroon 5#2443#683
+179#Passionfruit#Drake#2441#1074
+180#Livin' On A Prayer#Bon Jovi#2440#909
+181#This Is What You Came For#Calvin Harris#2438#707
+182#I Like Me Better#Lauv#2436#676
+183#a thousand years#Christina Perri#2436#844
+184#Thunderstruck#AC/DC#2435#834
+185#Tití Me Preguntó#Bad Bunny#2434#892
+186#I Ain't Worried#OneRepublic#2432#551
+187#Love The Way You Lie#Eminem#2427#980
+188#Ghost#Justin Bieber#2426#698
+189#Ride#Twenty One Pilots#2423#869
+190#Congratulations#Post Malone#2414#420
+191#Radioactive#Imagine Dragons#2413#491
+192#greedy#Tate McRae#2394#731
+193#Chandelier#Sia#2394#621
+194#Hotel California#Eagles#2390#950
+195#INDUSTRY BABY#Lil Nas X#2385#281
+196#HIGHEST IN THE ROOM#Travis Scott#2381#485
+197#Dynamite#BTS#2381#484
+198#Beggin'#Måneskin#2378#800
+199#Poker Face#Lady Gaga#2375#1101
+200#Money Trees#Kendrick Lamar#2374#788
