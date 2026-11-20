@@ -92,6 +92,7 @@ public class ProjetoFinalBrasileirao {
     }
 
     public static void exibirRelatorio(String[][] times, int quantidadeTimes) {
+        int colunaNome = 1;
         int colunaPontos = 2;
         int colunaVitorias = 4;
         int colunaGols = 7;
@@ -105,11 +106,11 @@ public class ProjetoFinalBrasileirao {
         int timesComSaldoPositivo = contarSaldoPositivo(times, quantidadeTimes);
 
         System.out.println("=-=-=-=-=-= RELATÓRIO DO BRASILEIRÃO 2026 (34 JOGOS POR TIME) =-=-=-=-=-=-=");
-        System.out.printf("Líder: %s (%s pontos)\n", times[lider][1], times[lider][2]);
-        System.out.printf("Lanterna: %s (%s pontos)\n", times[lanterna][1], times[lanterna][2]);
+        System.out.printf("Líder: %s (%s pontos)\n", times[lider][1], times[lider][colunaPontos]);
+        System.out.printf("Lanterna: %s (%s pontos)\n", times[lanterna][1], times[lanterna][colunaPontos]);
         System.out.printf("Total de pontos somados: %d\n", totalPontos);
         System.out.printf("Média de gols marcados por time: %.2f\n", mediaGols);
-        System.out.printf("Time com mais vitórias: %s (%s vitórias)\n", times[timeComMaisVitorias][1], times[timeComMaisVitorias][4]);
+        System.out.printf("Time com mais vitórias: %s (%s vitórias)\n", times[timeComMaisVitorias][colunaNome], times[timeComMaisVitorias][colunaVitorias]);
         System.out.printf("Quantidade de times com saldo de gols positivo: %d de %d\n", timesComSaldoPositivo, quantidadeTimes);
     }
 }
