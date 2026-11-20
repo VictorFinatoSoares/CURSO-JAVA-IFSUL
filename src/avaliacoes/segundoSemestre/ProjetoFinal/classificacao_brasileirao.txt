@@ -5,14 +5,14 @@ posicao;clube;pontos;partidasJogadas;vitorias;empates;derrotas;golsMarcados;gols
 4;Fluminense;57;34;16;9;9;55;42;13
 5;Athletico Paranaense;54;34;15;9;10;51;43;8
 6;Bahia;53;34;14;11;9;50;45;5
-7;Atlético Mineiro;51;35;14;9;12;44;40;4
+7;Atlético Mineiro;50;34;14;8;12;44;40;4
 8;Red Bull Bragantino;47;34;13;8;13;44;39;5
 9;Santos;47;34;12;11;11;50;49;1
 10;São Paulo;44;34;12;8;14;39;39;0
 11;Vasco da Gama;44;34;12;8;14;45;50;-5
 12;Botafogo;42;34;11;9;14;46;53;-7
 13;Coritiba;42;34;11;9;14;40;51;-11
-14;Mirassol;41;35;10;11;14;39;48;-9
+14;Mirassol;40;34;10;10;14;39;48;-9
 15;Vitória;38;34;10;8;16;35;51;-16
 16;Internacional;38;34;9;11;14;38;42;-4
 17;Corinthians;37;34;9;10;15;36;42;-6

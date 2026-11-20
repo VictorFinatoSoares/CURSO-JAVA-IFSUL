@@ -11,6 +11,8 @@ public class ProjetoFinalBrasileirao {
 
         if (quantidadeTimes > 0) {
             exibirRelatorio(times, quantidadeTimes);
+        } else {
+            System.out.println("ERRO: Não encontramos dados de nenhum time!");
         }
     }
 
@@ -48,8 +50,8 @@ public class ProjetoFinalBrasileirao {
         return soma;
     }
 
-    public static double calcularMedia(int total, int quantidade) {
-        return (double) total / quantidade;
+    public static double calcularMedia(int total, int quantidadeTimes) {
+        return (double) total / quantidadeTimes;
     }
 
     public static int encontrarMaior(String[][] times, int quantidadeTimes, int coluna) {
@@ -78,9 +80,10 @@ public class ProjetoFinalBrasileirao {
 
     public static int contarSaldoPositivo(String[][] times, int quantidadeTimes) {
         int quantidade = 0;
+        int colunaSaldoDeGols = 9;
 
         for (int i = 0; i < quantidadeTimes; i++) {
-            if (Integer.parseInt(times[i][9]) > 0) {
+            if (Integer.parseInt(times[i][colunaSaldoDeGols]) > 0) {
                 quantidade++;
             }
         }
@@ -89,21 +92,24 @@ public class ProjetoFinalBrasileirao {
     }
 
     public static void exibirRelatorio(String[][] times, int quantidadeTimes) {
-        int lider = encontrarMaior(times, quantidadeTimes, 2);
-        int lanterna = encontrarMenor(times, quantidadeTimes, 2);
-        int timeComMaisVitorias = encontrarMaior(times, quantidadeTimes, 4);
-        int totalPontos = somarColuna(times, quantidadeTimes, 2);
-        int totalGols = somarColuna(times, quantidadeTimes, 7);
+        int colunaPontos = 2;
+        int colunaVitorias = 4;
+        int colunaGols = 7;
+
+        int lider = encontrarMaior(times, quantidadeTimes, colunaPontos);
+        int lanterna = encontrarMenor(times, quantidadeTimes, colunaPontos);
+        int timeComMaisVitorias = encontrarMaior(times, quantidadeTimes, colunaVitorias);
+        int totalPontos = somarColuna(times, quantidadeTimes, colunaPontos);
+        int totalGols = somarColuna(times, quantidadeTimes, colunaGols);
         double mediaGols = calcularMedia(totalGols, quantidadeTimes);
         int timesComSaldoPositivo = contarSaldoPositivo(times, quantidadeTimes);
 
-        System.out.println("RELATÓRIO DO BRASILEIRÃO");
-        System.out.println("-------------------------");
+        System.out.println("=-=-=-=-=-= RELATÓRIO DO BRASILEIRÃO 2026 (34 JOGOS POR TIME) =-=-=-=-=-=-=");
         System.out.printf("Líder: %s (%s pontos)\n", times[lider][1], times[lider][2]);
         System.out.printf("Lanterna: %s (%s pontos)\n", times[lanterna][1], times[lanterna][2]);
         System.out.printf("Total de pontos somados: %d\n", totalPontos);
         System.out.printf("Média de gols marcados por time: %.2f\n", mediaGols);
         System.out.printf("Time com mais vitórias: %s (%s vitórias)\n", times[timeComMaisVitorias][1], times[timeComMaisVitorias][4]);
-        System.out.printf("Times com saldo de gols positivo: %d de %d\n", timesComSaldoPositivo, quantidadeTimes);
+        System.out.printf("Quantidade de times com saldo de gols positivo: %d de %d\n", timesComSaldoPositivo, quantidadeTimes);
     }
 }
