@@ -106,8 +106,8 @@ public class ProjetoFinalBrasileirao {
         int timesComSaldoPositivo = contarSaldoPositivo(times, quantidadeTimes);
 
         System.out.println("=-=-=-=-=-= RELATÓRIO DO BRASILEIRÃO 2026 (34 JOGOS POR TIME) =-=-=-=-=-=-=");
-        System.out.printf("Líder: %s (%s pontos)\n", times[lider][1], times[lider][colunaPontos]);
-        System.out.printf("Lanterna: %s (%s pontos)\n", times[lanterna][1], times[lanterna][colunaPontos]);
+        System.out.printf("Líder: %s (%s pontos)\n", times[lider][colunaNome], times[lider][colunaPontos]);
+        System.out.printf("Lanterna: %s (%s pontos)\n", times[lanterna][colunaNome], times[lanterna][colunaPontos]);
         System.out.printf("Total de pontos somados: %d\n", totalPontos);
         System.out.printf("Média de gols marcados por time: %.2f\n", mediaGols);
         System.out.printf("Time com mais vitórias: %s (%s vitórias)\n", times[timeComMaisVitorias][colunaNome], times[timeComMaisVitorias][colunaVitorias]);
